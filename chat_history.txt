@@ -1,0 +1,8 @@
+HumanMessage(content="What is a Python list comprehension?")
+AIMessage(content="A list comprehension is a concise way to create a list in Python. For example, `[x * 2 for x in range(5)]` produces `[0, 2, 4, 6, 8]`. It is often faster and more readable than building the list with a loop and append.")
+
+HumanMessage(content="How do I read a text file line by line?")
+AIMessage(content="Use `open()` with a context manager and iterate over the file object:\n\n```python\nwith open(\"chat_history.txt\") as f:\n    for line in f:\n        print(line.strip())\n```\n\nYou can also call `f.readlines()` to get a list of all lines at once.")
+
+HumanMessage(content="What is LangChain's MessagePlaceholder used for?")
+AIMessage(content="`MessagePlaceholder` is a slot in a `ChatPromptTemplate` where you inject a variable list of messages at runtime—typically prior chat turns (`HumanMessage`, `AIMessage`) so the model sees conversation context before the latest user question.")

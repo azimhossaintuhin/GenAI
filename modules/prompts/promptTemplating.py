@@ -1,7 +1,7 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from decouple import config
-import os
+
 from typing import Dict, List
 
 
