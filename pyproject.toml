@@ -9,4 +9,5 @@ dependencies = [
     "langchain-community>=0.4.1",
     "pydentic>=0.0.1.dev3",
     "python-decouple>=3.8",
+    "grandalf>=0.8",
 ]
