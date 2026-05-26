@@ -27,6 +27,7 @@ prompt1 = PromptTemplate(
     template="""
 Extract user information.
 
+
 {format_instructions}
 
 Text:
